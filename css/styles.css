@@ -1,3 +1,4 @@
+/* #region body*/
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -7,10 +8,54 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-a {
-    text-decoration: none;
+
+/* #endregion body*/
+
+/* #region add reset*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+button {
+    font-family: inherit;
+    color: inherit;
+}
+
+address {
+    font-style: normal;
+}
+/* #endregion add reset*/
+
+.container {
+    width: 1158;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 /* #region header */
 
@@ -46,11 +91,9 @@ a {
     color: #404bbf;
 }
 
-.address {
-    font-style: normal;
-}
 
-.link-adress {
+
+.link-address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -58,7 +101,7 @@ a {
     color: #434455;
     font-style: normal;
 }
-.link-adress:hover, .link-adress:focus {
+.link-address:hover, .link-address:focus {
     color: #404bbf;
 }
 
@@ -67,6 +110,7 @@ a {
 
 
 /* #region head */
+
 
 .section-head {
     background-color: #2e2f42;
@@ -80,11 +124,14 @@ a {
     color: #fff;
     text-align: center;
     letter-spacing: 0.02em;
+    padding: 168px 0 48px;
+   
 }
 
 button {
     cursor: pointer;
-
+    display: block;
+    margin: 0 auto;
 }
 
 .button {
@@ -94,6 +141,10 @@ button {
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color: #fff;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
 }
 
 button:hover,
@@ -105,6 +156,20 @@ button:focus {
 /* #region Quality */
 
 .quality {}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .quality-team {
     font-weight: 500;

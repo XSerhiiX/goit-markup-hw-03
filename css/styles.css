@@ -143,8 +143,8 @@ button {
     color: #fff;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+    min-width: 169px;
+    min-height: 56px;
 }
 
 button:hover,

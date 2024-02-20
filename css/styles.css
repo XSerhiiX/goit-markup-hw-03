@@ -59,6 +59,16 @@ address {
 
 /* #region header */
 
+.header-title {}
+
+.header-link {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -169,6 +179,11 @@ button:focus {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.quality-list {
+    display: flex;
+    gap: px;
 }
 
 .quality-team {

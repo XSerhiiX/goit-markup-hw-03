@@ -59,13 +59,19 @@ address {
 
 /* #region header */
 
-.header-title {}
+.header-title {
+    margin: 20px;
+}
 
 .header-link {
     display: flex;
 }
 
 .header-nav {
+    display: flex;
+}
+
+.link {
     display: flex;
 }
 
@@ -115,6 +121,9 @@ address {
     color: #404bbf;
 }
 
+.address-contact {
+    display: flex;
+}
 
 /* #endregion */
 
@@ -125,6 +134,9 @@ address {
 .section-head {
     background-color: #2e2f42;
     color: #2e2f42;
+    margin-bottom: 120px;
+    
+    height: 600px;
 }
 
 .section-head-title {
@@ -135,6 +147,7 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     padding: 168px 0 48px;
+
    
 }
 
@@ -165,7 +178,9 @@ button:focus {
 
 /* #region Quality */
 
-.quality {}
+.quality {
+    margin-bottom: 120px;
+}
 
 .visually-hidden {
     position: absolute;
@@ -183,7 +198,8 @@ button:focus {
 
 .quality-list {
     display: flex;
-    gap: px;
+    gap: 24 px;
+    
 }
 
 .quality-team {
@@ -205,6 +221,7 @@ button:focus {
 
 .team {
    background-color: #f4f4fd;
+   margin-bottom: 120px;
 }
 
 .team-title {
@@ -215,10 +232,14 @@ button:focus {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
+    padding-bottom: 72px;
+    height: 162px;
+    weight: 40px;
 }
 
 .team-list {
-        
+    display: flex;
+    justify-content: space-between;
 }
 
 .team-item {
@@ -254,6 +275,11 @@ button:focus {
     color: #2e2f42;
 }
 
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 .list {
     font-weight: 500;

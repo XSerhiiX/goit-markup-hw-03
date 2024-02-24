@@ -197,8 +197,12 @@ button:focus {
 
 .quality-list {
     display: flex;
-    gap: 24 px;
+    justify-content: space-between;
     
+}
+
+.quality-item {
+    width: 264px;
 }
 
 .quality-subtitle {
@@ -238,7 +242,8 @@ button:focus {
 
 .team-list {
     display: flex;
-    justify-content: space-between;
+   
+    gap: 24px;
 }
 
 .team-item {
@@ -264,7 +269,7 @@ button:focus {
 
 /* #region portfolio */
 
-.benefits {
+.portfolio {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -274,13 +279,15 @@ button:focus {
     color: #2e2f42;
 }
 
-.benefits-list {
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 
 }
 
-.benefits-sabtitle {
+.portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -288,7 +295,7 @@ button:focus {
     color: #2e2f42;
 }
 
-.benefits-text {
+.portfolio-text {
     color: #434455;
 }
 

@@ -52,28 +52,32 @@ address {
 /* #endregion add reset*/
 
 .container {
-    width: 1158;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 /* #region header */
 
-.header-title {
-    margin: 20px;
+.header .container {
+    display: flex;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-link {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
-.header-link {
-    display: flex;
-}
+  
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -82,7 +86,8 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5
+    color:#4d5ae5;
+    margin-right: 76px;
 }
 
 .header-logo:hover,
@@ -98,6 +103,8 @@ address {
 }
 
 .link-send {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     color: #2e2f42;;  
 }
@@ -123,19 +130,27 @@ address {
 
 .address-contact {
     display: flex;
+    gap: 40px;
 }
 
 /* #endregion */
 
 
 /* #region head */
+.section-head .container {
+    padding-top: 188px;
+    padding-bottom: 292px;
+    
 
+}
 
 .section-head {
     background-color: #2e2f42;
     color: #2e2f42;
-    margin-bottom: 120px;
     height: 600px;
+    padding-bottom: 120px;
+   
+
 }
 
 .section-head-title {
@@ -145,8 +160,9 @@ address {
     color: #fff;
     text-align: center;
     letter-spacing: 0.02em;
-    padding: 168px 0 48px;
-
+    padding: 0 0 48px;
+    width: 496px;
+    margin: 0 auto;
    
 }
 
@@ -154,6 +170,7 @@ button {
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    padding-bottom: 188px;
 }
 
 .button {
@@ -178,7 +195,10 @@ button:focus {
 /* #region Quality */
 
 .quality {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    width: 1158px;
+    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -196,6 +216,7 @@ button:focus {
 }
 
 .quality-list {
+    width: 1128px;
     display: flex;
     justify-content: space-between;
     
@@ -211,6 +232,7 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .quality-subtitle-text {
@@ -223,8 +245,10 @@ button:focus {
 /* #region team */
 
 .team {
-   background-color: #f4f4fd;
-   margin-bottom: 120px;
+    padding-bottom: 120px;
+    background-color: #f4f4fd;
+    width: 1158px;
+    margin: 0 auto;
 }
 
 .team-title {
@@ -270,6 +294,12 @@ button:focus {
 /* #region portfolio */
 
 .portfolio {
+    padding-bottom: 120px;
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -304,7 +334,7 @@ button:focus {
 /* #region footer */
 
 .footer {
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
 }
 
 .footer-span {

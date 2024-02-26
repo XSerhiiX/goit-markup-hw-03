@@ -139,9 +139,6 @@ address {
 /* #region head */
 .section-head .container {
     padding-top: 188px;
-    padding-bottom: 292px;
-    
-
 }
 
 .section-head {
@@ -149,8 +146,6 @@ address {
     color: #2e2f42;
     height: 600px;
     padding-bottom: 120px;
-   
-
 }
 
 .section-head-title {
@@ -219,7 +214,6 @@ button:focus {
     width: 1128px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .quality-item {
@@ -252,6 +246,9 @@ button:focus {
 }
 
 .team-title {
+    padding-bottom: 72px;
+    height: 162px;
+    padding-top: 120px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -259,14 +256,11 @@ button:focus {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 72px;
-    height: 162px;
-    weight: 40px;
+    
 }
 
 .team-list {
     display: flex;
-   
     gap: 24px;
 }
 
@@ -300,6 +294,8 @@ button:focus {
 }
 
 .portfolio-title {
+    padding-top: 120px;
+    padding-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -315,6 +311,10 @@ button:focus {
     column-gap: 24px;
     row-gap: 48px;
 
+}
+
+.portfolio-list-item {
+    width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-subtitle {

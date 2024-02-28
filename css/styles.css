@@ -59,9 +59,13 @@ address {
 
 /* #region header */
 
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .header .container {
     display: flex;
-    border-bottom: 1px solid #E7E9FC;
+    
 }
 
 .header-link {

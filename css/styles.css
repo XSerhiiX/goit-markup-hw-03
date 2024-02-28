@@ -75,6 +75,7 @@ address {
 .header-nav {
     display: flex;
     align-items: center;
+    
 }
 
   
@@ -88,6 +89,7 @@ address {
     text-transform: uppercase;
     color:#4d5ae5;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-logo:hover,
@@ -99,6 +101,7 @@ address {
 }
 
 .header-logo-studio {
+    padding: 24px 0;
     color: #2e2f42;
 }
 
@@ -117,6 +120,7 @@ address {
 
 
 .link-address {
+    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -131,6 +135,7 @@ address {
 .address-contact {
     display: flex;
     gap: 40px;
+    
 }
 
 /* #endregion header*/
@@ -262,10 +267,21 @@ button:focus {
 .team-list {
     display: flex;
     gap: 24px;
+    
 }
 
 .team-item {
     background-color:#ffffff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
+
+
+.team-wrapper {
+    margin: 32px 0 8px 0;
+    text-align: center;
 }
 
 .team-subtitle {
@@ -274,6 +290,7 @@ button:focus {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-bottom: 8px;
 }
 
 .team-text {
@@ -288,7 +305,8 @@ button:focus {
 /* #region portfolio */
 
 .portfolio {
-    padding-bottom: 120px;
+
+    padding: 0 0 120px 0;
     width: 1158px;
     margin: 0 auto;
 }
@@ -314,10 +332,23 @@ button:focus {
 }
 
 .portfolio-list-item {
-    width: calc((100% - 24px * 2) / 3);
+    display: flex;
+    flex-direction: column;
+    max-width: calc((100% - 24px * 2) / 3);
+    
+    
 }
 
+
+.portfolio-wrapper {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+
 .portfolio-subtitle {
+    margin: 32px 0 8px;
+    padding-left: 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -326,6 +357,7 @@ button:focus {
 }
 
 .portfolio-text {
+    padding: 0 0 32px 16px;
     color: #434455;
 }
 
@@ -335,6 +367,13 @@ button:focus {
 
 .footer {
     background-color: #2e2f42;
+    height: 312px;
+}
+
+.footer-wrapper {
+    width: 262px;
+    height: 112px;
+    padding: 100px 0 100px 0;
 }
 
 .footer-span {
@@ -344,7 +383,8 @@ button:focus {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;;
+    color: #4d5ae5;
+    margin-bottom: 16px;
 }
 
 .footer-span:hover,
@@ -355,12 +395,14 @@ button:focus {
 }
 .footer-studio {
     color: #f4f4fd;
+    margin-bottom: 16px;
 }
 
 
 
 .footer-text {
     color: #f4f4fd;
+margin-top: 16px;
 }
 
 

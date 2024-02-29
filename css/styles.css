@@ -223,12 +223,11 @@ button:focus {
 .quality-list {
     width: 1128px;
     display: flex;
-    /* justify-content: space-between; */
-    gap: 40px;
+    gap: 24px;
 }
 
 .quality-item {
-    width: 264px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .quality-subtitle {
@@ -340,20 +339,17 @@ button:focus {
     display: flex;
     flex-direction: column;
     max-width: calc((100% - 24px * 2) / 3);
-    
-    
 }
-
 
 .portfolio-wrapper {
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding: 32px 16px;
 }
 
 
 .portfolio-subtitle {
-    margin: 32px 0 8px;
-    padding-left: 16px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -362,7 +358,6 @@ button:focus {
 }
 
 .portfolio-text {
-    padding: 0 0 32px 16px;
     color: #434455;
 }
 
@@ -376,7 +371,7 @@ button:focus {
     padding: 100px 0;
 }
 
-.footer-wrapper {
+.container .footer-wrapper {
     width: 262px;
     height: 112px;
     
@@ -397,14 +392,12 @@ button:focus {
 .footer-span:hover,
 .footer-span:focus,
 .footer-span:hover .footer-studio,
-.footer-span:focus .footer-studio{
+.footer-span:focus .footer-studio {
     color: #404bbf;
 }
 .footer-studio {
     color: #f4f4fd;
 }
-
-
 
 .footer-text {
     color: #f4f4fd;

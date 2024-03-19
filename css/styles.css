@@ -201,8 +201,6 @@ button:focus {
 .quality {
     padding-bottom: 120px;
     padding-top: 120px;
-    width: 1158px;
-    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -256,8 +254,6 @@ button:focus {
 
 .team-title {
     margin-bottom: 72px;
-    height: 162px;
-    padding-top: 120px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -271,13 +267,11 @@ button:focus {
 .team-list {
     display: flex;
     gap: 24px;
-    
 }
 
 .team-item {
     background-color:#ffffff;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
